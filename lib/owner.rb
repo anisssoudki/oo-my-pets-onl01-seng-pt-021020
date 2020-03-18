@@ -39,10 +39,10 @@ class Owner
  end
  def walk_dogs 
 
-   dogs.each {|dog| dog.mood = "Happy".downcase}
+   dogs.each {|dog| dog.mood = "happy".downcase}
  end
  def feed_cats
-   cats.each {|cat| cat.mood = "Happy".downcase}
+   cats.each {|cat| cat.mood = "happy".downcase}
  end
  
  def sell_pets
