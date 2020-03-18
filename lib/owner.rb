@@ -57,7 +57,7 @@ class Owner
    return "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)."
 =======
    dogs.each {|mood|.downcase dog.mood = "Happy"}
->>>>>>> 8215425f95bda516bb339fd00cc26e65d5743286
+
  end
  
 end
