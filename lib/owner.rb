@@ -38,7 +38,7 @@ class Owner
   Dog.new(dog_name, self) 
  end
  def walk_dogs 
-<<<<<<< HEAD
+
    dogs.each {|dog| dog.mood = "Happy".downcase}
  end
  def feed_cats
@@ -55,7 +55,7 @@ class Owner
  
  def list_pets
    return "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)."
-=======
+
    dogs.each {|mood|.downcase dog.mood = "Happy"}
 
  end
